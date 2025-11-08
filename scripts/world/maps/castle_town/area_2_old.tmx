@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="29" tilewidth="40" tileheight="40" infinite="0" backgroundcolor="#000000" nextlayerid="8" nextobjectid="51">
+ <editorsettings>
+  <export target="area_2_old.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="music" value="castletown_empty"/>
+  <property name="name" value="Castle Town"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/castle.tsx"/>
+ <tileset firstgid="41" source="../../tilesets/castle_town_bg.tsx"/>
+ <imagelayer id="2" name="bg">
+  <image source="../../../../assets/sprites/world/castle_town/area_1_old_base.png" width="640" height="1160"/>
+ </imagelayer>
+ <layer id="1" name="tiles" width="16" height="29">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="objects_decor_below">
+  <object id="1" gid="46" x="296" y="128" width="46" height="128"/>
+  <object id="5" gid="52" x="40" y="608" width="26" height="40"/>
+  <object id="6" gid="52" x="574" y="608" width="26" height="40"/>
+  <object id="10" gid="52" x="596" y="916" width="26" height="40"/>
+  <object id="9" gid="52" x="468" y="916" width="26" height="40"/>
+  <object id="8" gid="52" x="146" y="916" width="26" height="40"/>
+  <object id="7" gid="52" x="18" y="916" width="26" height="40"/>
+ </objectgroup>
+ <objectgroup color="#0000ff" id="6" name="collision">
+  <object id="15" x="124" y="578" width="114" height="42"/>
+  <object id="16" x="418" y="582" width="108" height="40"/>
+  <object id="17" x="414" y="734" width="112" height="40"/>
+  <object id="18" x="120" y="734" width="114" height="40"/>
+  <object id="22" x="0" y="1053" width="194" height="107"/>
+  <object id="23" x="446" y="1053" width="194" height="107"/>
+  <object id="24" x="0" y="832" width="192" height="128"/>
+  <object id="25" x="448" y="832" width="192" height="128"/>
+  <object id="26" x="0" y="382" width="126" height="450"/>
+  <object id="27" x="514" y="382" width="126" height="450"/>
+  <object id="28" x="0" y="222" width="166" height="204"/>
+  <object id="29" x="126" y="426">
+   <polygon points="0,0 0,40 40,0"/>
+  </object>
+  <object id="30" x="474" y="220" width="166" height="204"/>
+  <object id="31" x="514" y="424">
+   <polygon points="0,0 0,40 -40,0"/>
+  </object>
+  <object id="32" x="166" y="246">
+   <polygon points="0,0 0,40 40,0"/>
+  </object>
+  <object id="33" x="474" y="246">
+   <polygon points="0,0 0,40 -42,0"/>
+  </object>
+  <object id="34" x="199" y="251">
+   <polygon points="0,0 77,-17 77,-58"/>
+  </object>
+  <object id="35" x="436" y="248">
+   <polygon points="0,0 -74,-14 -74,-56"/>
+  </object>
+  <object id="48" x="100" y="30" width="158" height="204"/>
+  <object id="50" x="380" y="30" width="158" height="204"/>
+ </objectgroup>
+ <objectgroup id="4" name="objects">
+  <object id="3" name="savepoint" x="318" y="318">
+   <properties>
+    <property name="text1" value="* You look upon the castle you first saw yesterday..."/>
+    <property name="text2" value="* You are filled with the power of immediate nostalgia."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="36" name="interactable" x="161" y="582" width="40" height="40">
+   <properties>
+    <property name="text1_1" value="* (It looks like a shop,[wait:5] but the door is locked,[wait:5] and no one's inside...)"/>
+    <property name="text2_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="39" name="interactable" x="452" y="584" width="40" height="40">
+   <properties>
+    <property name="text1_1" value="* (It looks like a shop,[wait:5] but the door is locked,[wait:5] and no one's inside...)"/>
+    <property name="text2_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="40" name="interactable" x="156" y="736" width="40" height="40">
+   <properties>
+    <property name="text1_1" value="* (It looks like a shop,[wait:5] but the door is locked,[wait:5] and no one's inside...)"/>
+    <property name="text2_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="41" name="interactable" x="448" y="736" width="40" height="40">
+   <properties>
+    <property name="text1_1" value="* (It looks like a shop,[wait:5] but the door is locked,[wait:5] and no one's inside...)"/>
+    <property name="text2_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="43" name="transition" x="194" y="1160" width="252" height="40">
+   <properties>
+    <property name="map" value="area_1"/>
+    <property name="marker" value="entry"/>
+   </properties>
+  </object>
+  <object id="44" name="transition" x="-40" y="960" width="40" height="93">
+   <properties>
+    <property name="map" value="west_cliff"/>
+    <property name="marker" value="entry"/>
+   </properties>
+  </object>
+  <object id="45" name="transition" x="640" y="960" width="40" height="93">
+   <properties>
+    <property name="map" value="tutorial_room"/>
+    <property name="marker" value="entry"/>
+   </properties>
+  </object>
+  <object id="47" name="transition" x="246" y="192" width="140" height="20">
+   <properties>
+    <property name="map" value="castle_front"/>
+    <property name="marker" value="entry"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="markers">
+  <object id="4" name="spawn" x="319" y="396">
+   <point/>
+  </object>
+  <object id="19" name="entry_w" x="61" y="1013">
+   <point/>
+  </object>
+  <object id="20" name="entry_e" x="597" y="1018">
+   <point/>
+  </object>
+  <object id="21" name="entry" x="321" y="1127">
+   <point/>
+  </object>
+  <object id="46" name="entry_castle" x="321" y="274">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="objects_decor_upper" locked="1">
+  <object id="11" gid="58" x="120" y="778" width="158" height="166"/>
+  <object id="12" gid="60" x="366" y="778" width="158" height="166"/>
+  <object id="13" gid="61" x="124" y="624" width="158" height="166"/>
+  <object id="14" gid="59" x="370" y="626" width="158" height="166"/>
+ </objectgroup>
+</map>
